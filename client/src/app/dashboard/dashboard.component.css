@@ -1,0 +1,39 @@
+.common-btn {
+    font-family: 'Istok Web' !important;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4d4642;
+    border-color: 1px solid #4d4642;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    cursor: Pointer;
+    height:75%
+}
+.mat-table {
+    font-family: 'Istok Web' !important;
+   }
+   table {
+    width: 100%;
+    border-spacing: 0 8px !important;
+    table-layout: fixed;
+
+  }
+  
+  td.mat-cell {
+   padding: 16px 0 16px 0;
+   border-bottom: 2px solid #141414;
+   border-top: 2px solid #141414;
+  }
+  
+  td.mat-cell:first-child {
+    border-left: 2px solid #141414;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  td.mat-cell:last-child {
+    border-right: 2px solid #141414;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
